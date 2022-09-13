@@ -1,0 +1,14 @@
+{
+  "name": "compose-html",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "next": "~12.3.0",
+    "react": "latest",
+    "react-dom": "latest"
+  }
+}
