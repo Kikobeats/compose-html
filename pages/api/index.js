@@ -9,7 +9,7 @@ const composeHtml = ({ head, body }) =>
 <body>${toArray(body)}</body>
 </html>`.trim()
 
-export const config = { runtime: 'experimental-edge' }
+export const config = { runtime: 'nodejs' }
 
 export default async request => {
   const url = request.nextUrl
